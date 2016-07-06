@@ -1,0 +1,24 @@
+body {
+  font-family: inherit;
+}
+.home-background {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #609aff;
+  position: fixed;
+  //vertical-align: middle;
+
+  .center-box {
+    font-size: 26px;
+    background: #609aff;
+    text-align: center;
+    margin-top: 50vh;
+    transform: translate(0, -50%);
+
+    .input-box {
+      margin-bottom: 15px;
+    }
+  }
+}
